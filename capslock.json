@@ -217,30 +217,6 @@
           ]
         },
         {
-          "description": "control + h = ctrl + left (prev desktop)",
-          "type": "basic",
-          "from": {
-            "key_code": "h",
-            "modifiers": {
-              "mandatory": [
-                "left_control",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "left_arrow",
-              "modifiers": [
-                "left_control"
-              ]
-            }
-          ]
-        },
-        {
           "description": " h = left",
           "type": "basic",
           "from": {
@@ -371,7 +347,7 @@
           ]
         },
         {
-          "description": "hyper + alt + j = tmux pane right",
+          "description": "hyper + alt + l = tmux pane right",
           "type": "basic",
           "from": {
             "key_code": "l",
@@ -395,13 +371,13 @@
           ]
         },
         {
-          "description": "hyper + alt + j = tmux pane up",
+          "description": "hyper + alt + k = tmux pane up",
           "type": "basic",
           "from": {
             "key_code": "k",
             "modifiers": {
               "mandatory": [
-                "left_option",
+                "left_control",
                 "right_command",
                 "right_control",
                 "right_shift",
@@ -419,13 +395,13 @@
           ]
         },
         {
-          "description": "hyper + alt + j = tmux pane left",
+          "description": "hyper + alt + j = tmux pane down",
           "type": "basic",
           "from": {
             "key_code": "h",
             "modifiers": {
               "mandatory": [
-                "left_option",
+                "left_control",
                 "right_command",
                 "right_control",
                 "right_shift",
@@ -449,7 +425,7 @@
             "key_code": "j",
             "modifiers": {
               "mandatory": [
-                "left_option",
+                "left_control",
                 "right_command",
                 "right_control",
                 "right_shift",
